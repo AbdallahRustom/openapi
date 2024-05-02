@@ -13,8 +13,8 @@
 package TrafficInfluence
 
 import (
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
+	"github.com/AbdallahRustom/openapi"
+	"github.com/AbdallahRustom/openapi/models"
 
 	"context"
 	"io/ioutil"

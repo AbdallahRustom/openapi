@@ -1,4 +1,4 @@
-module github.com/free5gc/openapi
+module github.com/AbdallahRustom/openapi
 
 go 1.19
 

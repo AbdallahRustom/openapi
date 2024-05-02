@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/free5gc/openapi/models"
+	"github.com/AbdallahRustom/openapi/models"
 )
 
 const (

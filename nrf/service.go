@@ -10,10 +10,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"go.opentelemetry.io/otel"
 
-	"github.com/free5gc/openapi"
-	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/openapi/nrf/NFDiscovery"
-	"github.com/free5gc/openapi/nrf/NFManagement"
+	"github.com/AbdallahRustom/openapi"
+	"github.com/AbdallahRustom/openapi/models"
+	"github.com/AbdallahRustom/openapi/nrf/NFDiscovery"
+	"github.com/AbdallahRustom/openapi/nrf/NFManagement"
 )
 
 const (
