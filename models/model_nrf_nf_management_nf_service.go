@@ -36,7 +36,7 @@ type NrfNfManagementNfService struct {
 	AllowedNfDomains                 []string                          `json:"allowedNfDomains,omitempty" yaml:"allowedNfDomains" bson:"allowedNfDomains,omitempty"`
 	AllowedNssais                    []ExtSnssai                       `json:"allowedNssais,omitempty" yaml:"allowedNssais" bson:"allowedNssais,omitempty"`
 	// A map (list of key-value pairs) where NF Type serves as key
-	AllowedOperationsPerNfType map[string][]string `json:"allowedOperationsPerNfType,omitempty" yaml:"allowedOperationsPerNfType" bson:"allowedOperationsPerNfType,omitempty"`
+	AllowedOperationsPerNfType map[string]string `json:"allowedOperationsPerNfType,omitempty" yaml:"allowedOperationsPerNfType" bson:"allowedOperationsPerNfType,omitempty"`
 	// A map (list of key-value pairs) where NF Instance Id serves as key
 	AllowedOperationsPerNfInstance map[string][]string `json:"allowedOperationsPerNfInstance,omitempty" yaml:"allowedOperationsPerNfInstance" bson:"allowedOperationsPerNfInstance,omitempty"`
 	Priority                       int32               `json:"priority,omitempty" yaml:"priority" bson:"priority,omitempty"`
